@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\FirstBankProject\bin\Debug\FirstBankProject.exe.config
+C:\Users\Admin\source\repos\FirstBankProject\bin\Debug\FirstBankProject.exe
+C:\Users\Admin\source\repos\FirstBankProject\bin\Debug\FirstBankProject.pdb
+C:\Users\Admin\source\repos\FirstBankProject\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\FirstBankProject\obj\Debug\SimpleBankSystem-DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\FirstBankProject\obj\Debug\SimpleBankSystem-DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\FirstBankProject\obj\Debug\SimpleBa.A14BFCB3.Up2Date
+C:\Users\Admin\source\repos\FirstBankProject\obj\Debug\FirstBankProject.exe
+C:\Users\Admin\source\repos\FirstBankProject\obj\Debug\FirstBankProject.pdb

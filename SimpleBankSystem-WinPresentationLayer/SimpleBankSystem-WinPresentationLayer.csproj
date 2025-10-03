@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6C02C9F-4E68-44E7-996F-160A6372155F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SimpleBankSystem_WinPresentationLayer</RootNamespace>
+    <AssemblyName>SimpleBankSystem-WinPresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\SimpleBankSystemPublished\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>05834ADA53B08CBAD5042E489385E730D39B5CA0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SimpleBankSystem-WinPresentationLayer_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\FirstBankProject\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonAUDStyler.cs" />
+    <Compile Include="clsDgvStyler.cs" />
+    <Compile Include="AllForms\frmAddNewClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmAddNewClients.Designer.cs">
+      <DependentUpon>frmAddNewClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmAddNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmAddNewUser.Designer.cs">
+      <DependentUpon>frmAddNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmClients.Designer.cs">
+      <DependentUpon>frmClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmDeposit.Designer.cs">
+      <DependentUpon>frmDeposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmTransfer.Designer.cs">
+      <DependentUpon>frmTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmUpdateClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmUpdateClients.Designer.cs">
+      <DependentUpon>frmUpdateClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmUpdateUser.Designer.cs">
+      <DependentUpon>frmUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllForms\frmWithdrawal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForms\frmWithdrawal.Designer.cs">
+      <DependentUpon>frmWithdrawal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlAddNewClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlAddNewClient.Designer.cs">
+      <DependentUpon>ctrlAddNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AllUsersControl\usClients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUsersControl\usClients.Designer.cs">
+      <DependentUpon>usClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsersControl\usLogRegister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUsersControl\usLogRegister.Designer.cs">
+      <DependentUpon>usLogRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsersControl\usTransactions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUsersControl\usTransactions.Designer.cs">
+      <DependentUpon>usTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsersControl\usTransferrRegister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUsersControl\usTransferrRegister.Designer.cs">
+      <DependentUpon>usTransferrRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsersControl\usUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUsersControl\usUsers.Designer.cs">
+      <DependentUpon>usUsers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AllForms\frmAddNewClients.resx">
+      <DependentUpon>frmAddNewClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmAddNewUser.resx">
+      <DependentUpon>frmAddNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmClients.resx">
+      <DependentUpon>frmClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmDeposit.resx">
+      <DependentUpon>frmDeposit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmTransfer.resx">
+      <DependentUpon>frmTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmUpdateClients.resx">
+      <DependentUpon>frmUpdateClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmUpdateUser.resx">
+      <DependentUpon>frmUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllForms\frmWithdrawal.resx">
+      <DependentUpon>frmWithdrawal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlAddNewClient.resx">
+      <DependentUpon>ctrlAddNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="AllUsersControl\usClients.resx">
+      <DependentUpon>usClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsersControl\usLogRegister.resx">
+      <DependentUpon>usLogRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsersControl\usTransactions.resx">
+      <DependentUpon>usTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsersControl\usTransferrRegister.resx">
+      <DependentUpon>usTransferrRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsersControl\usUsers.resx">
+      <DependentUpon>usUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SimpleBankSystem-WinPresentationLayer_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SystemBankBusinesLayer\SimpleBankSystem-BusinessLayer.csproj">
+      <Project>{2f6ba781-5443-4d4c-85ce-318a97e69fc8}</Project>
+      <Name>SimpleBankSystem-BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bankBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-24W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conference-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 13, 2025, 12_04_11 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\us-dollar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date-to-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time-8-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banknotes-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

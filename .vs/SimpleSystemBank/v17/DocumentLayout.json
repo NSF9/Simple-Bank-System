@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\SimpleSystemBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C02C9F-4E68-44E7-996F-160A6372155F}|..\\SimpleBankSystem\\SimpleBankSystem-WinPresentationLayer\\SimpleBankSystem-WinPresentationLayer.csproj|c:\\users\\admin\\source\\repos\\simplebanksystem\\simplebanksystem-winpresentationlayer\\allforms\\frmaddnewclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddNewClients.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\SimpleBankSystem\\SimpleBankSystem-WinPresentationLayer\\AllForms\\frmAddNewClients.cs",
+              "RelativeDocumentMoniker": "..\\SimpleBankSystem\\SimpleBankSystem-WinPresentationLayer\\AllForms\\frmAddNewClients.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\SimpleBankSystem\\SimpleBankSystem-WinPresentationLayer\\AllForms\\frmAddNewClients.cs [Design]",
+              "RelativeToolTip": "..\\SimpleBankSystem\\SimpleBankSystem-WinPresentationLayer\\AllForms\\frmAddNewClients.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:14:15.791Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 173,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
